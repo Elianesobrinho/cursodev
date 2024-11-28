@@ -1,4 +1,4 @@
-//Elabore um algoritmo que receba um vetor de n posições, logo após implemente uma função que
+//Elabore um algoritmo que receba um vetor de n posiÃ§Ãµes, logo apÃ³s implemente uma funÃ§Ã£o que
 //receba o vetor e o tamanho dele e calcule de forma recursiva a soma dos elementos deste vetor.
 
 programa
@@ -19,7 +19,7 @@ programa
 
 		c = somaVetor(vetor, 10)
 		
-		escreva("\nA soma dos elementos do vetor é: ",c)
+		escreva("\nA soma dos elementos do vetor Ã©: ",c)
 	}
 	funcao real somaVetor(real vetor[], inteiro tamanho){
 
@@ -34,8 +34,8 @@ programa
 
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 96; 
  * @PONTOS-DE-PARADA = ;
