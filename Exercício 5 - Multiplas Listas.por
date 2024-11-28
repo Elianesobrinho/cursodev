@@ -1,7 +1,7 @@
 //Elabore um algoritmo que leia duas listas de 10 elementos:
 //a) a primeira lista contendo os nomes dos times.
-//b) a segunda lista contendo a pontuação dos times.
-//Ao final, apresentar na tela o time campeão (com pontuação) e o último colocado (com pontuação) no campeonato.
+//b) a segunda lista contendo a pontuaÃ§Ã£o dos times.
+//Ao final, apresentar na tela o time campeÃ£o (com pontuaÃ§Ã£o) e o Ãºltimo colocado (com pontuaÃ§Ã£o) no campeonato.
 
 programa
 {
@@ -15,7 +15,7 @@ programa
 			
 			escreva("\nInforme o nome do time: ")
 			leia(time[x])
-			escreva("\nInforme a pontuação: ")
+			escreva("\nInforme a pontuaÃ§Ã£o: ")
 			leia(ponto[x])
 			limpa()
 			
@@ -34,15 +34,15 @@ programa
 				ultimo = time[x]
 			}
 		}
-		escreva("\nCampeão: ",campeao,". Total de pontos: ",maior,"\n")
-		escreva("\nÚltimo: ",ultimo,". Total de pontos: ",menor,"\n")
+		escreva("\nCampeÃ£o: ",campeao,". Total de pontos: ",maior,"\n")
+		escreva("\nÃšltimo: ",ultimo,". Total de pontos: ",menor,"\n")
 		
 	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 770; 
  * @PONTOS-DE-PARADA = ;
