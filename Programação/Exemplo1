@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, sum; // Declarando a variáveis como inteiro 'num1', 'num2', 'sum'
+    
+    printf("Entre com o primeiro numero: "); // Exibindo mensagem guia para o usuário digitar o primeiro numero
+    
+    scanf("%d", &num1); // Leitura do segundo numero usando '%d' dentro de 'num1'
+    
+    printf("Entre com o segundo numero: "); // Exibindo mensagem guia para o usuário digitar o segundo numero 
+    
+    scanf("%d", &num2); // Leitura do segundo numero usando '%d' dentro de 'num2'
+    
+    sum = num1 + num2; // realizando a soma do dois números  e salvando na variável 'sum'
+    
+    printf("A soma do numero é %d", sum); // Exibindo a soma na tela
+
+    return 0;
+    
+    
+}
